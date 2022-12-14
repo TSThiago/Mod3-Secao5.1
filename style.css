@@ -1,0 +1,112 @@
+/* For both Pages */
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: #042940;
+}
+
+/* Navigation Bar */
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    width: 95vw;
+    margin: 0 auto
+}
+
+.navBar img{
+    height: 10vh;
+    margin-top: 2.5vh;
+}
+
+.links {
+    display: flex;
+    gap: 2vw;
+    margin-top: 4.5vh;
+    font-size: 3.5vh;
+    width:13vw;
+    height: 15vh;
+}
+
+.links a{
+    color: white;
+    height: 3.5vh;
+}
+
+/* Home Page */
+
+/* Movies Section */
+
+.movies{
+    margin: 3vh auto 0 auto;
+    height: 70vh;
+    width: 60vw;
+    background-color: white;
+    border-radius: 1em;
+}
+
+.movies h1{
+    display: grid;
+    place-content: center;
+    height:7vh;
+    width:54vw;
+    margin: auto;
+    text-align: center;
+}
+
+.moviesBoxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap:1vh 2vw;
+    width: 54vw;
+    height: 63vh;
+    margin: 0 auto;
+}
+
+.box {
+    background-color: #646464;
+    font-size: small;
+    height: 18vh;
+    width: 16.6vw;
+}
+
+.boxText {
+    margin: 0 0.5vw
+}
+
+/* Register Page */
+
+/* Form */
+
+.form {
+    width: 25vw;
+    height: 50vh;
+    border-radius: 2em;
+    margin: 5vh auto;
+    background-color: white;
+}
+
+.form h1{
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+    height:5vh;
+    width: 22.5vw
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width:20vw;
+    gap:2vh;
+    margin: 2vh auto
+}
